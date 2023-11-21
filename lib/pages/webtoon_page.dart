@@ -41,7 +41,11 @@ class _WebtoonPageState extends State<WebtoonPage> {
               ),
               Container(
                 child: Column(
-                  children: [Container()],
+                  children: [
+                    Container(
+                      child: Text('a'),
+                    ),
+                  ],
                 ),
                 height: MediaQuery.of(context).size.height * 2,
               ),
