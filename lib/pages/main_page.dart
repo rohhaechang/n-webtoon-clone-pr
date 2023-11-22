@@ -60,6 +60,7 @@ class _MainPageState extends State<MainPage> {
           ],
         ),
         body: PageView(
+          physics: NeverScrollableScrollPhysics(),
           controller: _pageController,
           children: [
             WebtoonPage(),
